@@ -1,14 +1,14 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 using RobotHardware;
 using System.Drawing;
 using System.Collections.Generic;
 
 namespace GoRumbaMumba.Tests
 {
-    [TestClass]
+    [TestFixture]
     public class ReturnRumbaMumbaNoObstaclesTest
     {
-        [TestMethod]
+        [Test]
         public void ExecuteTest()
         {
             var robot = new Hardware(2, 2);

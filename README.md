@@ -48,7 +48,3 @@ CLARIFICATIONS
 5)      The robot doesn’t remember the path.  
 
 6)      Don’t worry about the GUI. You can use a Console Application, Test Classes or whatever you need. 
-
-### How to build
-
-  This was built with VS 2010 Professional. You may be able to get this to build in 2010 Express, but I haven't tried it yet (I don't think MS Test works in Express though, so you'd probably have to port the test methods (such as they are) to nUnit.
